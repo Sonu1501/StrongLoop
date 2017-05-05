@@ -1,0 +1,355 @@
+{
+  "name": "MstUsers",
+  "base": "User",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "postgresql": {
+    "schema": "public",
+    "table": "mst_users"
+  },
+  "properties": {
+    "id": {
+      "type": "Number",
+      "id": true,
+      "required": true,
+      "length": null,
+      "precision": 64,
+      "scale": 0,
+      "postgresql": {
+        "columnName": "id",
+        "dataType": "bigint",
+        "dataLength": null,
+        "dataPrecision": 64,
+        "dataScale": 0,
+        "nullable": "NO"
+      },
+      "_selectable": false
+    },
+    "firstName": {
+      "type": "String",
+      "required": false,
+      "length": 15,
+      "precision": null,
+      "scale": null,
+      "postgresql": {
+        "columnName": "first_name",
+        "dataType": "character varying",
+        "dataLength": 15,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      },
+      "_selectable": true
+    },
+    "middleName": {
+      "type": "String",
+      "required": false,
+      "length": 15,
+      "precision": null,
+      "scale": null,
+      "postgresql": {
+        "columnName": "middle_name",
+        "dataType": "character varying",
+        "dataLength": 15,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      },
+      "_selectable": true
+    },
+    "lastName": {
+      "type": "String",
+      "required": false,
+      "length": 15,
+      "precision": null,
+      "scale": null,
+      "postgresql": {
+        "columnName": "last_name",
+        "dataType": "character varying",
+        "dataLength": 15,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      },
+      "_selectable": true
+    },
+    "cellNumber": {
+      "type": "String",
+      "required": false,
+      "length": 76,
+      "precision": null,
+      "scale": null,
+      "postgresql": {
+        "columnName": "cell_number",
+        "dataType": "character varying",
+        "dataLength": 76,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      },
+      "_selectable": true
+    },
+    "createdBy": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 64,
+      "scale": 0,
+      "postgresql": {
+        "columnName": "created_by",
+        "dataType": "bigint",
+        "dataLength": null,
+        "dataPrecision": 64,
+        "dataScale": 0,
+        "nullable": "YES"
+      },
+      "_selectable": true
+    },
+    "createdDate": {
+      "type": "String",
+      "required": false,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "postgresql": {
+        "columnName": "created_date",
+        "dataType": "timestamp without time zone",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      },
+      "_selectable": true
+    },
+    "updatedBy": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 64,
+      "scale": 0,
+      "postgresql": {
+        "columnName": "updated_by",
+        "dataType": "bigint",
+        "dataLength": null,
+        "dataPrecision": 64,
+        "dataScale": 0,
+        "nullable": "YES"
+      },
+      "_selectable": true
+    },
+    "updatedDate": {
+      "type": "String",
+      "required": false,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "postgresql": {
+        "columnName": "updated_date",
+        "dataType": "timestamp without time zone",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      },
+      "_selectable": true
+    },
+    "realm": {
+      "type": "String",
+      "required": false,
+      "length": 1024,
+      "precision": null,
+      "scale": null,
+      "postgresql": {
+        "columnName": "realm",
+        "dataType": "character varying",
+        "dataLength": 1024,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      },
+      "_selectable": true
+    },
+    "username": {
+      "type": "String",
+      "required": false,
+      "length": 1024,
+      "precision": null,
+      "scale": null,
+      "postgresql": {
+        "columnName": "username",
+        "dataType": "character varying",
+        "dataLength": 1024,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      },
+      "_selectable": true
+    },
+    "password": {
+      "type": "String",
+      "required": true,
+      "length": 1024,
+      "precision": null,
+      "scale": null,
+      "postgresql": {
+        "columnName": "password",
+        "dataType": "character varying",
+        "dataLength": 1024,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "NO"
+      },
+      "_selectable": false
+    },
+    "credentials": {
+      "type": "String",
+      "required": false,
+      "length": 1024,
+      "precision": null,
+      "scale": null,
+      "postgresql": {
+        "columnName": "credentials",
+        "dataType": "character varying",
+        "dataLength": 1024,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      },
+      "_selectable": true
+    },
+    "challenges": {
+      "type": "String",
+      "required": false,
+      "length": 1024,
+      "precision": null,
+      "scale": null,
+      "postgresql": {
+        "columnName": "challenges",
+        "dataType": "character varying",
+        "dataLength": 1024,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      },
+      "_selectable": true
+    },
+    "email": {
+      "type": "String",
+      "required": true,
+      "length": 1024,
+      "precision": null,
+      "scale": null,
+      "postgresql": {
+        "columnName": "email",
+        "dataType": "character varying",
+        "dataLength": 1024,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "NO"
+      },
+      "_selectable": false
+    },
+    "emailverified": {
+      "type": "Boolean",
+      "required": false,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "postgresql": {
+        "columnName": "emailverified",
+        "dataType": "boolean",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      },
+      "_selectable": true
+    },
+    "verificationtoken": {
+      "type": "String",
+      "required": false,
+      "length": 1024,
+      "precision": null,
+      "scale": null,
+      "postgresql": {
+        "columnName": "verificationtoken",
+        "dataType": "character varying",
+        "dataLength": 1024,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      },
+      "_selectable": true
+    },
+    "status": {
+      "type": "String",
+      "required": false,
+      "length": 1024,
+      "precision": null,
+      "scale": null,
+      "postgresql": {
+        "columnName": "status",
+        "dataType": "character varying",
+        "dataLength": 1024,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      },
+      "_selectable": true
+    },
+    "created": {
+      "type": "String",
+      "required": false,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "postgresql": {
+        "columnName": "created",
+        "dataType": "timestamp with time zone",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      },
+      "_selectable": true
+    },
+    "lastupdated": {
+      "type": "String",
+      "required": false,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "postgresql": {
+        "columnName": "lastupdated",
+        "dataType": "timestamp with time zone",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      },
+      "_selectable": true
+    },
+    "nickName": {
+      "type": "String",
+      "required": false,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "postgresql": {
+        "columnName": "nick_name",
+        "dataType": "character varying",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      },
+      "_selectable": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

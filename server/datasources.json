@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "postgresdatabase": {
+    "host": "localhost",
+    "port": 5433,
+    "database": "RoomBudgetManager",
+    "password": "Sonu1501",
+    "name": "postgresdatabase",
+    "user": "postgres",
+    "connector": "postgresql"
+  }
+}
