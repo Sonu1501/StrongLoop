@@ -10,15 +10,15 @@
     "table": "mst_log"
   },
   "properties": {
-    "logId": {
+    "id": {
       "type": "Number",
-      "id": true,
-      "required": true,
+      "required": false,
+      "generated": true,
       "length": null,
       "precision": 64,
       "scale": 0,
       "postgresql": {
-        "columnName": "log_id",
+        "columnName": "id",
         "dataType": "bigint",
         "dataLength": null,
         "dataPrecision": 64,
@@ -43,14 +43,14 @@
       },
       "_selectable": true
     },
-    "logDescp": {
+    "logDesc": {
       "type": "String",
       "required": false,
       "length": null,
       "precision": null,
       "scale": null,
       "postgresql": {
-        "columnName": "log_descp",
+        "columnName": "log_desc",
         "dataType": "character varying",
         "dataLength": null,
         "dataPrecision": null,
@@ -75,14 +75,14 @@
       },
       "_selectable": true
     },
-    "tableName": {
+    "table": {
       "type": "String",
       "required": false,
       "length": null,
       "precision": null,
       "scale": null,
       "postgresql": {
-        "columnName": "table_name",
+        "columnName": "table",
         "dataType": "character varying",
         "dataLength": null,
         "dataPrecision": null,

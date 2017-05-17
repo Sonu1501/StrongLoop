@@ -14,6 +14,7 @@
       "type": "Number",
       "id": true,
       "required": false,
+      "generated": true,
       "length": null,
       "precision": 64,
       "scale": 0,
@@ -35,22 +36,6 @@
       "scale": null,
       "postgresql": {
         "columnName": "first_name",
-        "dataType": "character varying",
-        "dataLength": 15,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "YES"
-      },
-      "_selectable": true
-    },
-    "middleName": {
-      "type": "String",
-      "required": false,
-      "length": 15,
-      "precision": null,
-      "scale": null,
-      "postgresql": {
-        "columnName": "middle_name",
         "dataType": "character varying",
         "dataLength": 15,
         "dataPrecision": null,
@@ -91,70 +76,6 @@
       },
       "_selectable": true
     },
-    "createdBy": {
-      "type": "Number",
-      "required": false,
-      "length": null,
-      "precision": 64,
-      "scale": 0,
-      "postgresql": {
-        "columnName": "created_by",
-        "dataType": "bigint",
-        "dataLength": null,
-        "dataPrecision": 64,
-        "dataScale": 0,
-        "nullable": "YES"
-      },
-      "_selectable": true
-    },
-    "createdDate": {
-      "type": "String",
-      "required": false,
-      "length": null,
-      "precision": null,
-      "scale": null,
-      "postgresql": {
-        "columnName": "created_date",
-        "dataType": "timestamp without time zone",
-        "dataLength": null,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "YES"
-      },
-      "_selectable": true
-    },
-    "updatedBy": {
-      "type": "Number",
-      "required": false,
-      "length": null,
-      "precision": 64,
-      "scale": 0,
-      "postgresql": {
-        "columnName": "updated_by",
-        "dataType": "bigint",
-        "dataLength": null,
-        "dataPrecision": 64,
-        "dataScale": 0,
-        "nullable": "YES"
-      },
-      "_selectable": true
-    },
-    "updatedDate": {
-      "type": "String",
-      "required": false,
-      "length": null,
-      "precision": null,
-      "scale": null,
-      "postgresql": {
-        "columnName": "updated_date",
-        "dataType": "timestamp without time zone",
-        "dataLength": null,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "YES"
-      },
-      "_selectable": true
-    },
     "realm": {
       "type": "String",
       "required": false,
@@ -163,22 +84,6 @@
       "scale": null,
       "postgresql": {
         "columnName": "realm",
-        "dataType": "character varying",
-        "dataLength": 1024,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "YES"
-      },
-      "_selectable": true
-    },
-    "username": {
-      "type": "String",
-      "required": false,
-      "length": 1024,
-      "precision": null,
-      "scale": null,
-      "postgresql": {
-        "columnName": "username",
         "dataType": "character varying",
         "dataLength": 1024,
         "dataPrecision": null,
@@ -267,22 +172,6 @@
       },
       "_selectable": true
     },
-    "nickName": {
-      "type": "String",
-      "required": false,
-      "length": null,
-      "precision": null,
-      "scale": null,
-      "postgresql": {
-        "columnName": "nick_name",
-        "dataType": "character varying",
-        "dataLength": null,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "YES"
-      },
-      "_selectable": true
-    },
     "groupName": {
       "type": "String",
       "required": false,
@@ -331,22 +220,6 @@
       },
       "_selectable": true
     },
-    "accountNumber": {
-      "type": "String",
-      "required": false,
-      "length": null,
-      "precision": null,
-      "scale": null,
-      "postgresql": {
-        "columnName": "account_number",
-        "dataType": "character varying",
-        "dataLength": null,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "YES"
-      },
-      "_selectable": true
-    },
     "imageLink": {
       "type": "String",
       "required": false,
@@ -355,22 +228,6 @@
       "scale": null,
       "postgresql": {
         "columnName": "image_link",
-        "dataType": "character varying",
-        "dataLength": null,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "YES"
-      },
-      "_selectable": true
-    },
-    "sessionId": {
-      "type": "String",
-      "required": false,
-      "length": null,
-      "precision": null,
-      "scale": null,
-      "postgresql": {
-        "columnName": "session_id",
         "dataType": "character varying",
         "dataLength": null,
         "dataPrecision": null,
