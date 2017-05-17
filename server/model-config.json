@@ -37,5 +37,9 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+  "MstLog": {
+    "dataSource": "postgresdatabase",
+    "public": true
   }
 }

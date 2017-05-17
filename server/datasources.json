@@ -1,15 +1,12 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
-  },
   "postgresdatabase": {
-    "host": "localhost",
-    "port": 5433,
-    "database": "RoomBudgetManager",
-    "password": "Sonu1501",
+    "host": "ec2-184-73-199-72.compute-1.amazonaws.com",
+    "port": 5432,
+    "database": "d3ji9v5q16aq9e",
+    "password": "5fe9accf1b7c9a54edd08ac67cd00e6778d3f4a14dccc516ff0b85da4e2583f0",
     "name": "postgresdatabase",
-    "user": "postgres",
-    "connector": "postgresql"
+    "user": "trrmrsegbendcf",
+    "connector": "postgresql",
+    "ssl": "true"
   }
 }
