@@ -1,11 +1,11 @@
 {
   "postgresdatabase": {
-    "host": "ec2-184-73-199-72.compute-1.amazonaws.com",
+    "host": "nitindb.c2s8ucvncxnd.us-east-2.rds.amazonaws.com",
     "port": 5432,
-    "database": "d3ji9v5q16aq9e",
-    "password": "5fe9accf1b7c9a54edd08ac67cd00e6778d3f4a14dccc516ff0b85da4e2583f0",
+    "database": "BudgetManager",
+    "password": "Sonu1501",
     "name": "postgresdatabase",
-    "user": "trrmrsegbendcf",
+    "user": "Sonu1501",
     "connector": "postgresql",
     "ssl": "true"
   }
